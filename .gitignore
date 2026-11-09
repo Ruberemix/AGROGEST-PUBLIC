@@ -1,0 +1,29 @@
+# CompilaciÃ³n
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# Secretos locales (NUNCA subir)
+.env
+*.env.local
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+nbproject/
+nbactions.xml
+
+# Sistema
+.DS_Store
+Thumbs.db
+logs/
+*.log
+
+# Configuración local de Claude Code
+.claude/
